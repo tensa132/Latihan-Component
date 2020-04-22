@@ -15,7 +15,7 @@ export class InputComponent implements OnInit {
     
   }
   submit() {
-    this.routePass.navigate(['/list-page/'+this.nama+'/'+this.penjelasan])
+    this.routePass.navigate(['/list-page/'+this.nama+'/'+this.penjelasan]);
   }
   // Homepass() {
   //   this.router.navigate(['/home', 3]);
